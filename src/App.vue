@@ -1,26 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <conversor />
+    <hr>
+    <p><b>Respuestas: 1:B | 2:B y D | 3:C | 4:B y E | 5:C</b></p>
+  </div>    
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Conversor from './components/Conversor.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Conversor
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style> </style>
